@@ -1,13 +1,54 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body{
+    background-image: url("https://cdn.vox-cdn.com/thumbor/-JDviKlj2Yl-niNDG8x4P4pcWss=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19927955/GettyImages_1216019962.jpg");;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#tlBody{
+    margin: auto;
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    border-radius: 15px;
+    border: grey 2px solid;
 
-*/
+}
+.lights{
+    max-width: 95%;
+    height: 100%;
+    margin: auto;
+}
+.red{
+    margin: auto;
+    position: relative;
+    top: 25px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: red;
+    border-radius: 100%;
+}
+.yellow{
+    margin: auto;
+    position: relative;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: yellow;
+    border-radius: 100%;
+}
+.green{
+    margin: auto;
+    position: relative;
+    top: 70px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: green;
+    border-radius: 100%;
+}
+
+.glow{
+    box-shadow: 0 0 20px 20px rgb(235, 211, 133);
+}
